@@ -11,6 +11,7 @@ module.exports = (phase) => {
       },
     };
   }
+  // product env
   return {
     reactStrictMode: true,
     env: {
@@ -18,6 +19,10 @@ module.exports = (phase) => {
       mongodb_password: "LyfIy6Te1QXlQ9SQ",
       mongodb_clustername: "cluster0",
       mongodb_database: "myFirstDatabase",
+    },
+    images: {
+      loader: "imgix",
+      path: "/images",
     },
   };
 };

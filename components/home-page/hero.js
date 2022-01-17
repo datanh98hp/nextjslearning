@@ -14,7 +14,7 @@ export default function Hero() {
       </div>
       <h1>Dat Anh</h1>
       <p>
-        Hi I&aposm about web development - Frontend frameworks like Angular , React,
+        Hi I'm about web development - Frontend frameworks like Angular , React,
         Vue
       </p>
     </section>
