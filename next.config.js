@@ -20,10 +20,7 @@ module.exports = (phase) => {
       mongodb_clustername: "cluster0",
       mongodb_database: "myFirstDatabase",
     },
-    images: {
-      loader: "imgix",
-      path: "/images",
-    },
+    
   };
 };
 //mongodb+srv://datblog:LyfIy6Te1QXlQ9SQ@cluster0.dxswz.mongodb.net/blog?retryWrites=true&w=majority
